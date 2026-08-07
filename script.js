@@ -45,7 +45,7 @@ document.addEventListener('keydown', event => {
 document.getElementById('inquiryForm').addEventListener('submit', event => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
-  const sellerEmail = 'sales@example.com'; // Replace with the real seller email.
+  const sellerEmail = 'contactdavico@davicomfg.com'; // Replace with the real seller email.
   const subject = encodeURIComponent('Inquiry: 2021 Haas VF-5SS');
   const body = encodeURIComponent(
 `Name: ${form.get('name')}
